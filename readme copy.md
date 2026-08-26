@@ -741,3 +741,7 @@ github = repositório remoto
 push = atualizar repositório remoto
 
 5 fazendo o primeiro repositório git e github
+
+13 colocando uma imagem de fundo no seu site
+
+usando background image podemos fazer degrade nas paginas e elementos: *background-image: linear-gradient()* podemos fazer com cores e *background-image: url()* podemos colocar padrões que baixamos
