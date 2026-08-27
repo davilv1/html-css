@@ -791,3 +791,8 @@ transform: translate(-20px, -20px)
 (deixa mexer a caixa em alguma direção, sendo o + para a direta e baixo, e - para esquerda e cima)
 
 então para deixar um elemento vertical centralizado, colocamos ele com *position absolute*, para podermos mexer nas caracteristicas *left 50% e top 50%* e depois *transform: translate(-50%, -50%)*, fazendo com que a posição absoluta seja o meio
+
+aula 22 ajustes do desafio 12
+
+novo: *text-transform: uppercase*, coloca tudo em caixa alta
+novo: *font-variant: small-caps;*, coloca em caixa alta menor, e a primeira letra é maior
