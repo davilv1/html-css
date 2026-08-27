@@ -826,3 +826,13 @@ todas as infos ficam dentro do *tbody*
  Caption é a legenda das tabelas
 
  scope serve pra falar onde está localizado as informaçoes da tabela se é na mesma coluna ou na mesma linha (col e row)
+
+ 31 efeito zebrado na tabela
+
+ para criar o efeito zebrado dentro das linhas, usamos *tbody > tr:nth-child()*, e definimos de quantas em quantas linhas vai ser aplicada a mudança exemplo:
+
+ tbody > tr:nth-child(2n){ (vai aplicar na segunda linha toda vez então, 2º, 4º etc..)
+            background-color: lightgray;
+        }
+
+da pra usar também impar ou par ao invés de números, odd ou even(impar ou par)
