@@ -761,3 +761,7 @@ configuramos a posição da imagem usando background-position, colocando a parti
 vh(viewheight)= é a altura da view port, que é a parte branca/tela do site
 
 16 mudando o tamanho da iamgem de fundo do site
+
+dentro de background-size temos as opções de colocar manualmente o tamanho com valores ou com : contain(foca em mostrar a imagem completa, podendo gerar barras pretas), auto(que é o padrão), e o cover(que cobre a tela inteira mesmo que tenha que corta a imagem, fazendo caber ela no tamanho da janela)
+
+
