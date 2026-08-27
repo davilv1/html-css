@@ -764,4 +764,30 @@ vh(viewheight)= é a altura da view port, que é a parte branca/tela do site
 
 dentro de background-size temos as opções de colocar manualmente o tamanho com valores ou com : contain(foca em mostrar a imagem completa, podendo gerar barras pretas), auto(que é o padrão), e o cover(que cobre a tela inteira mesmo que tenha que corta a imagem, fazendo caber ela no tamanho da janela)
 
+17 background-attachment e shorthand
 
+rolar pagina e deixar fundo travado é chamado de vínculo e se usa o *background-attachment*
+
+usando o *background-size: cover, e o background-attachment: fixed* podemos deixar uma imagem de fundo fixa e rolar para baixo na pagina sem quebrar a imagem
+
+Shorthand - background
+                color > image > position > repeat > /[size]
+                > attachment
+
+Mas o [size] não está funcionando, então tem que tirar e colocar separado
+Na verdade é só colocar uma / entre repeat/size que funciona
+
+aula 18 Centralização vertical de caixas
+
+forma mais facil de centralizar um conteudo horizontalmente é com *margin: auto*, margin só funciona para alinhamentos horizontais
+
+todo posicionamento de um box em html é relativo *"position: relative"*
+
+colocando um elemento com posicionamento absoluto, "*position: absolute*" podemos mexer em mais duas propriedades do elemento, o *left e top*, que é a distancia do elemento para essas duas partes, o topo e o lado esquerdo, da pra usar *porcentagem como medida também além de px*
+
+*transform* é mexer em qualquer caixa aplicando alguma alteração de transformação nela
+
+transform: translate(-20px, -20px)
+(deixa mexer a caixa em alguma direção, sendo o + para a direta e baixo, e - para esquerda e cima)
+
+então para deixar um elemento vertical centralizado, colocamos ele com *position absolute*, para podermos mexer nas caracteristicas *left 50% e top 50%* e depois *transform: translate(-50%, -50%)*, fazendo com que a posição absoluta seja o meio
