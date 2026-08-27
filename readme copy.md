@@ -745,3 +745,19 @@ push = atualizar repositório remoto
 13 colocando uma imagem de fundo no seu site
 
 usando background image podemos fazer degrade nas paginas e elementos: *background-image: linear-gradient()* podemos fazer com cores e *background-image: url()* podemos colocar padrões que baixamos
+
+14 imagens que se repetem no fundo do site
+
+background-size deixa por tamanho na imagem
+
+a repetição sempre acontece quand ousa um background-image
+
+mas da pra personalizar a repetição com background-repeat e escolher como vai ser repetido ou se não vai ser repetido, sempre começa no superior esquerdo
+
+15 configurando a posição da imagem no fundo do site
+
+configuramos a posição da imagem usando background-position, colocando a partir de qual parte ela vai ser puxada, exemplo left top(vai puxar o canto superior esquerdo), center center(vai puxaro meio do meio) etc..
+
+vh(viewheight)= é a altura da view port, que é a parte branca/tela do site
+
+16 mudando o tamanho da iamgem de fundo do site
