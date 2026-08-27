@@ -800,3 +800,21 @@ novo: *font-variant: small-caps;*, coloca em caixa alta menor, e a primeira letr
 aula 23 fontes
 
 enquanto ainda não aprendemos sobre media queree, podemos fazer os textos diminuirem dependendo da largura que a pagina está aberta, utilizando a medida *vw*(view width)
+
+aula 27 tabelas em html
+
+todas as tabelas simples em html são na seguinte hierarquia: table, table row, table header, table data
+
+tags de tabela: <table> <tr> <td>
+
+novo: *border-collapse: collapse;* tira o espaço entre as caixinhas da tabela
+
+o w3c, fala que na HTML5 o fechamento das tags </tr> e </td> não são obrigatórios, mas é bom ter
+
+text-align faz o alinhamento horizontal
+
+e o vertical-align faz o alinha vertical para células(<td>)
+
+text-align: left center right
+
+vertical-align: top middle bottom
