@@ -796,3 +796,7 @@ aula 22 ajustes do desafio 12
 
 novo: *text-transform: uppercase*, coloca tudo em caixa alta
 novo: *font-variant: small-caps;*, coloca em caixa alta menor, e a primeira letra é maior
+
+aula 23 fontes
+
+enquanto ainda não aprendemos sobre media queree, podemos fazer os textos diminuirem dependendo da largura que a pagina está aberta, utilizando a medida *vw*(view width)
