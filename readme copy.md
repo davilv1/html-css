@@ -818,3 +818,11 @@ e o vertical-align faz o alinha vertical para células(<td>)
 text-align: left center right
 
 vertical-align: top middle bottom
+
+todas as infos ficam dentro do *tbody*
+
+ 30 caption e escopo de títulos em tabelas
+
+ Caption é a legenda das tabelas
+
+ scope serve pra falar onde está localizado as informaçoes da tabela se é na mesma coluna ou na mesma linha (col e row)
