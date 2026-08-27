@@ -836,3 +836,13 @@ todas as infos ficam dentro do *tbody*
         }
 
 da pra usar também impar ou par ao invés de números, odd ou even(impar ou par)
+
+32 cabeçado fixo em tabelas grandes
+
+*position: sticky;* faz com que o topo seja arrastado para baixo ao descer a página, indo embora ao acabar a tabela
+
+mas não funciona em todos os navegadores
+
+33 mesclagem de células
+
+formas de mesclagem, expansão em coluna e expansão em linha
