@@ -875,3 +875,6 @@ Também da pra fazer coluna em grupo e usar somente *span* pra definir a quantid
 39 tabelas responsivas
 
  tabelas grandes podem ser colocadas dentro de uma <div></div> e serem alteradas no css utilizando o *overflow: "auto" "hidden" "scroll"*, overflow cuida das coisas que "transbordam da tela", da pra alterar X e Y ou separadamente
+
+módulo 4
+
