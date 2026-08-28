@@ -846,3 +846,9 @@ mas não funciona em todos os navegadores
 33 mesclagem de células
 
 formas de mesclagem, expansão em coluna e expansão em linha
+
+36 escopos em grupo
+
+a semantica de row rowgroup e col colgroup serve para casos onde 1 titulo via ter mais de 1 coluna ou linha abaixo que é seu, exemplo ter 3 colunas de filme, se colocarmos *scope: col* o código entende que o TITULO "FILMES" só é de 1 coluna ao invés das 3, por isso colocamos *scope: colgroup*
+
+ou seja, se 1 th(titulos) tem mais de 1 elemento abaixou ou ao lado, deve ser usado colgroup para colunas ou rowgroup para linhas, se for apenas 1, usamos apenas col e row
