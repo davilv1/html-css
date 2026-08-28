@@ -852,3 +852,23 @@ formas de mesclagem, expansão em coluna e expansão em linha
 a semantica de row rowgroup e col colgroup serve para casos onde 1 titulo via ter mais de 1 coluna ou linha abaixo que é seu, exemplo ter 3 colunas de filme, se colocarmos *scope: col* o código entende que o TITULO "FILMES" só é de 1 coluna ao invés das 3, por isso colocamos *scope: colgroup*
 
 ou seja, se 1 th(titulos) tem mais de 1 elemento abaixou ou ao lado, deve ser usado colgroup para colunas ou rowgroup para linhas, se for apenas 1, usamos apenas col e row
+
+38 agrupando colunas em colgroup
+
+nova tag <colgroup> permite colocar a quantidade de colunas que temos, assim caso seja preciso marcar uma coluna completa, ao invés de ir em um por um, da pra criar uma classe pra cada coluna e aplicar nela toda
+
+<colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+</colgroup>
+
+Também da pra fazer coluna em grupo e usar somente *span* pra definir a quantidade de colunas:
+
+<colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+</colgroup>
+
