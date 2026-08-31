@@ -914,3 +914,27 @@ Isso vai fazer que clicando no link <a>, ao invés de carregar uma nova aba ou n
 6 conteúdo no frame por código
 
 novo parâmetro, *srcdoc*, diferente do *src* o *srcdoc* permite colocar código HTML5 dentro dele para aparecer no <iframe> como h1, p, etc..
+
+7 incovenientes do iframe
+
+frame e iframe são diferentes, frame é evitado
+
+mecanismos de buscas fazem análises do site, existem alguns problemas para que o google bot entre nos iframes, e faça index ou identificação das coisas dentro de iframes
+
+usabilidade e acessibilidade, softwares leitores de tela tem problemas para acessar os iframes, e problemas de usabilidade é coisas onde o computador se confunde ou o usuário se confunde, exemplo voltar pagina no iframe, o computador se confunde para "voltar iframe" ou "voltar pagina", também sites que tentam abrir coisas em novas abas, alguns navegadores não entendem que tem que abrir uma nova aba e não dentro do iframe, sites que não são responsivos podem apareecer quebrado dentro do iframe
+
+segurança, iframes abrem uma porta do seu site para outro site, então cuidado pra quem vai abrir a porta, então colocar sites que foram invadidos, e estão tendo dados roubados, o seu site começa a fazer isso pro outro site
+
+use e não abuse
+
+8 tornando iframes mais seguros
+
+novo parâmetro *sandbox="sandbox"* faz com que todo site/acesso que tente pegar dados dentro do iframe seja bloqueado, ele ativa tudo no maximo que ele consegue fazer
+
+*referrerpolicy="no-referrer-when-downgrade"* é o padrão, para deixar mais limitado o que é carregado no iframe, se usa o *referrerpolicy="no-referrer"* que liga o maximo de segurança dentro do iframe
+
+da pra configurar o *sandbox* e coloca aquilo que vamos precisar, exemplo: *sandbox="allow-same-origin allow-forms allow-scripts"* para permitir coisas da mesma origem, permitir fomulários e scripts.
+
+*referrerpolicy="no-referer" sandbox="sandbox"* = bloqueio maximo
+
+9 dicas para iframes melhores
