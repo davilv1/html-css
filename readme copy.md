@@ -900,4 +900,17 @@ só colocar no src o item local
 
 5 navegação no iframe
 
+da pra por nome nas coisas utilizando o parâmetro *name*
 
+usando a tag <a> podemos colocar no parâmetro *target=""* e o nome que colocamos no parâmetro *name* em outro lugar, podendo carregar aquilo que queremos dentro do iframe, exemplo 
+
+<a href="paginas-extras/pag001.html" target="frame">Primeira Página</a></li>
+
+<iframe src="" frameborder="0" id="tela" name="frame"><p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+Isso vai fazer que clicando no link <a>, ao invés de carregar uma nova aba ou na mesma página, carregue o conteúdo dentro do iframe
+
+6 conteúdo no frame por código
+
+novo parâmetro, *srcdoc*, diferente do *src* o *srcdoc* permite colocar código HTML5 dentro dele para aparecer no <iframe> como h1, p, etc..
