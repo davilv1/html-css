@@ -958,3 +958,7 @@ usar mapas, videos, docs, etc.. usando link de incorporação
         }
 
 esconde barra de rolagem
+
+17 formuláios em html5
+
+todo formulario fica entre <form></form>
