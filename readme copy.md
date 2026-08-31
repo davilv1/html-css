@@ -895,3 +895,9 @@ no = mesmo que o conteudo exceder o tamanho do frame ele NÃO vai criar a barra 
 frameborder é a borda do frame, podendo colocar 0 e qualquer outra coisa
 
 4 conteúdo local no iframe
+
+só colocar no src o item local
+
+5 navegação no iframe
+
+
