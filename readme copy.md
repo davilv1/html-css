@@ -938,3 +938,23 @@ da pra configurar o *sandbox* e coloca aquilo que vamos precisar, exemplo: *sand
 *referrerpolicy="no-referer" sandbox="sandbox"* = bloqueio maximo
 
 9 dicas para iframes melhores
+
+usar mapas, videos, docs, etc.. usando link de incorporação
+
+    border-radius: 50%; = redondo
+
+    box-sizing: border-box; = borda fica na caixa, mesmo se for redonda
+
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    transition: transform 0.3s, border .6s;
+
+    efeito, sombra, animação
+
+
+    ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        }
+
+esconde barra de rolagem
