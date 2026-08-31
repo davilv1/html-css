@@ -878,3 +878,20 @@ Também da pra fazer coluna em grupo e usar somente *span* pra definir a quantid
 
 módulo 4
 
+aula 3 iframes
+
+tamanho padrão de um iframe é de 300x150
+
+css é soberano ao código do html
+
+novo parâmetro: *scolling= "auto" "yes" "no"*
+
+Auto = se o conteudo exceder o tamanho do frame ele vai criar a barra de rolagem
+
+yes = mesmo se o conteudo caber todo dentro do frame ele ainda vai criar a barra de rolagem
+
+no = mesmo que o conteudo exceder o tamanho do frame ele NÃO vai criar a barra de rolagem (mas depende do navegador)
+
+frameborder é a borda do frame, podendo colocar 0 e qualquer outra coisa
+
+4 conteúdo local no iframe
